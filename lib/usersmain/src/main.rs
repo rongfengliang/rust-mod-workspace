@@ -8,7 +8,7 @@ extern crate moddemo;
 mod app;
 // short call for moddemo mod
 use moddemo::app::userlogin::{UserLogin};
-use app::add::Add;
+use app::add::{Add}
 use libmods::appdemos::MyAppdemo;
 fn main() {
     let appmodinfo =MyAppdemo{appname:"dlaongdemo".into(),appversion: "v1.0".into()};
