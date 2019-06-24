@@ -36,5 +36,14 @@ cargo run  -p usersmain
 
 > docker multi stage for build  &&  docker-compose for build docker image
 
+* image build
+
 ```code
+docker-compose build
+```
+
+* image running
+
+```code
+docker-compose up
 ```
