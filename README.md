@@ -31,3 +31,10 @@ cargo run
 ```code
 cargo run  -p usersmain
 ```
+
+## docker build
+
+> docker multi stage for build  &&  docker-compose for build docker image
+
+```code
+```
