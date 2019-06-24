@@ -1,6 +1,6 @@
 # cargo workspace && mod learning
 
-## for workspace
+## for workspace (with build )
 
 * build
 
@@ -16,4 +16,18 @@ target/debug/mod-app
 
 lib/usersmain:
 target/debug/usersmain
+```
+
+## test
+
+* root running
+
+```code
+cargo run
+```
+
+* running usersmain (workspace)
+
+```code
+cargo run  -p usersmain
 ```
