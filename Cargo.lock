@@ -1,4 +1,8 @@
 [[package]]
+name = "app-modmetrics"
+version = "0.1.0"
+
+[[package]]
 name = "itoa"
 version = "0.4.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -11,6 +15,7 @@ version = "0.1.0"
 name = "mod-app"
 version = "0.1.0"
 dependencies = [
+ "app-modmetrics 0.1.0",
  "serde 1.0.93 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_json 1.0.39 (registry+https://github.com/rust-lang/crates.io-index)",
  "users 0.1.0",

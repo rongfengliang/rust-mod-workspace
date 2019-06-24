@@ -1,7 +1,10 @@
 extern crate users;
+extern crate app_modmetrics;
 use serde::{Serialize, Deserialize};
 use serde_json;
 use users::{user,aaa};
+use app_modmetrics::metrics::{usermetrics};
+
 #[derive(Serialize, Deserialize, Debug)]
 struct Point {
     x: i32,
@@ -22,5 +25,6 @@ fn main() {
     let user = user::User{name: "dalong".into(),age:33u32};
     // Prints deserialized = Point { x: 1, y: 2 }
     println!("deserialized = {:?}", deserialized);
-    println!("{:?}",user);
+    let usermetrics = usermetrics::UserMetrics{metrics_name:"dalongdemo".into(),metrics_counts:43};
+    println!("{:?},{:?}",user,usermetrics);
 }
