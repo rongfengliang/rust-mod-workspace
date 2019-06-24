@@ -7,3 +7,9 @@ edition = "2018"
 [dependencies]
 
 users = {path = "../users" }
+
+libmods = {path = "../libmods" }
+
+moddemo = {path = "../moddemo" }
+
+

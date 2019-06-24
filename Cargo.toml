@@ -11,6 +11,8 @@ users   = { path = "lib/users" }
 [workspace]
 members = [
     "lib/users",
-    "lib/usersmain"
+    "lib/usersmain",
+    "lib/libmods",
+    "lib/moddemo"
 ]
 

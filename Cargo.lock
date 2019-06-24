@@ -4,6 +4,10 @@ version = "0.4.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
+name = "libmods"
+version = "0.1.0"
+
+[[package]]
 name = "mod-app"
 version = "0.1.0"
 dependencies = [
@@ -11,6 +15,10 @@ dependencies = [
  "serde_json 1.0.39 (registry+https://github.com/rust-lang/crates.io-index)",
  "users 0.1.0",
 ]
+
+[[package]]
+name = "moddemo"
+version = "0.1.0"
 
 [[package]]
 name = "proc-macro2"
@@ -84,6 +92,8 @@ version = "0.1.0"
 name = "usersmain"
 version = "0.1.0"
 dependencies = [
+ "libmods 0.1.0",
+ "moddemo 0.1.0",
  "users 0.1.0",
 ]
 
