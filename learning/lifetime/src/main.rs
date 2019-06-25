@@ -1,7 +1,10 @@
 mod rong;
 use rong::Rong;
 fn main() {
-    let rong = Rong{first_name:"dalong",second_name:"demoapp",third_name:"demoapp"};
-    println!("{:?}",rong);
-    rong.printname();
+   // Rong::demo();
+   let mut i = 0;
+   let p = & mut i;
+   *p=1;
+   println!("{}",p);
+   println!("{}",i);
 }
