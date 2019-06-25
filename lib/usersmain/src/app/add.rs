@@ -5,6 +5,18 @@ pub struct Add{
   pub third: i32,
 }
 
+
+#[derive(Debug,Default)]
+pub struct AppDefault {
+    first: i32,
+    second: i32,
+}
+
+impl AppDefault  {
+   pub fn add(self)->i32 {
+     self.first+self.second
+   }
+}
 // impl for default 
 impl Default for Add {
    fn default() -> Add {
