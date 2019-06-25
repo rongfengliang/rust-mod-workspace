@@ -3,6 +3,10 @@ name = "app-modmetrics"
 version = "0.1.0"
 
 [[package]]
+name = "function"
+version = "0.1.0"
+
+[[package]]
 name = "itoa"
 version = "0.4.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -83,6 +87,10 @@ dependencies = [
  "quote 0.6.12 (registry+https://github.com/rust-lang/crates.io-index)",
  "unicode-xid 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
+
+[[package]]
+name = "traits"
+version = "0.1.0"
 
 [[package]]
 name = "unicode-xid"

@@ -16,6 +16,8 @@ members = [
     "lib/usersmain",
     "lib/libmods",
     "lib/moddemo",
-    "lib/modmetrics"
+    "lib/modmetrics",
+    "learning/function",
+    "learning/traits"
 ]
 
