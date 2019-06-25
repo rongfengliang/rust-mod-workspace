@@ -4,3 +4,9 @@ pub struct Rong<'a> {
     pub second_name: &'a str,
     pub third_name: &'a str,
 }
+
+impl<'a>  Rong<'a> {
+   pub fn printname(&self) {
+       println!("{}",self.first_name);
+   }
+}

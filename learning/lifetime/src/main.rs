@@ -1,6 +1,7 @@
 mod rong;
-use rong::Rong as myrong;
+use rong::Rong;
 fn main() {
-    let rong = myrong{first_name:"dalong",second_name:"demoapp",third_name:"demoapp"};
+    let rong = Rong{first_name:"dalong",second_name:"demoapp",third_name:"demoapp"};
     println!("{:?}",rong);
+    rong.printname();
 }
