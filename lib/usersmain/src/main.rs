@@ -20,5 +20,6 @@ fn main() {
     let result = Add::add(12,44);
     let result2 = addop.add2(33,444);
     let appdefaultop = appdefault.add();
+    let appdefaultop2 = appdefault.add();
     print!("{:?},\r\n{},\r\n{},\r\r{}",appmodinfo,result,result2,appdefaultop);
 }

@@ -3,6 +3,10 @@ name = "app-modmetrics"
 version = "0.1.0"
 
 [[package]]
+name = "arrays"
+version = "0.1.0"
+
+[[package]]
 name = "function"
 version = "0.1.0"
 
@@ -13,6 +17,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "libmods"
+version = "0.1.0"
+
+[[package]]
+name = "lifetime"
+version = "0.1.0"
+
+[[package]]
+name = "matchs"
 version = "0.1.0"
 
 [[package]]

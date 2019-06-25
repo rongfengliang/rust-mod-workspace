@@ -5,6 +5,12 @@ pub struct Add{
   pub third: i32,
 }
 
+#[derive(Debug)]
+pub struct Rong<'a>{
+  pub first_name: &'a str,
+  pub second_name: &'a str,
+  pub last_name: &'a str,
+}
 
 #[derive(Debug,Default)]
 pub struct AppDefault {
@@ -13,8 +19,13 @@ pub struct AppDefault {
 }
 
 impl AppDefault  {
-   pub fn add(self)->i32 {
+   pub fn add(&self)->i32 {
      self.first+self.second
+   }
+}
+impl Drop for AppDefault {
+   fn drop(&mut self) {
+      println!("desc  {:?} app  default struct",self);
    }
 }
 // impl for default 

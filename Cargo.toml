@@ -18,6 +18,9 @@ members = [
     "lib/moddemo",
     "lib/modmetrics",
     "learning/function",
-    "learning/traits"
+    "learning/traits",
+    "learning/arrays",
+    "learning/matchs",
+    "learning/lifetime"
 ]
 
