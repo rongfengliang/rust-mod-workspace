@@ -21,6 +21,7 @@ members = [
     "learning/traits",
     "learning/arrays",
     "learning/matchs",
-    "learning/lifetime"
+    "learning/lifetime",
+    "learning/rc-demo"
 ]
 
