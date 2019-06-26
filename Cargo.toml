@@ -25,6 +25,7 @@ members = [
     "learning/rc-demo",
     "learning/closure",
     "learning/macros",
-    "learning/macros_lib"
+    "learning/macros_lib",
+    "learning/cliapp"
 ]
 
